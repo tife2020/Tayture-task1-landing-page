@@ -679,19 +679,8 @@ li.x {
   height: 240px;
   justify-content: center;
   overflow: hidden;
-  /* background-color: #111827; */
   width: 100%;
-  will-change: var(--framer-will-change-override, transform);
-
-  /* padding-block: 50px;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0) 0%,
-    rgb(0, 0, 0) 12.5%,
-    rgb(0, 0, 0) 87.5%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  overflow: hidden; */
+  will-change: transform;
 }
 
 .top-fade {

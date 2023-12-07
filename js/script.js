@@ -109,7 +109,7 @@ imageCont.addEventListener("mouseover", imgAddOverlay);
 imageCont.addEventListener("mouseout", imgRemoveOverlay);
 
 window.addEventListener("load", () => {
-  setTimeout(function () {
+/*setTimeout(function () {
     colorProgress[0].classList.add("progress-anim");
   }, 0);
   setTimeout(function () {
@@ -117,7 +117,8 @@ window.addEventListener("load", () => {
   }, 3000);
   setTimeout(function () {
     colorProgress[2].classList.add("progress-anim");
-  }, 6000);
+  }, 6000); */
+
   /* load progress */
   loadProgress();
 });
