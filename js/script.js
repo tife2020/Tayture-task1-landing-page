@@ -33,6 +33,7 @@ function reset(node, timer) {
   Array.from(node)[0].style.width = `${0}%`;
   Array.from(node)[1].style.width = `${0}%`;
   Array.from(node)[2].style.width = `${0}%`;
+  console.log(Array.from(node))
 }
 
 function loadProgress() {
